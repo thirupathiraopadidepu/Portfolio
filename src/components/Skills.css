@@ -1,0 +1,80 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #deebed; /* Keeping the previous background color */
+}
+
+.skills h2 {
+  color: #371b51; /* Keeping the previous heading color */
+}
+
+.skills p {
+  font-size: 1.2rem;
+  color: #7c6891; /* Keeping the previous paragraph color */
+  margin-bottom: 20px;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-around; /* Ensure even spacing between icons */
+  margin-bottom: 20px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #2a1e34; /* Background color for the skill item */
+  border-radius: 10px;
+  font-size: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+}
+
+.js-icon {
+  color: #f7df1e;
+}
+
+.html-icon {
+  color: #e34f26;
+}
+
+.css-icon {
+  color: #1572b6;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.vscode-icon {
+  color: #007acc;
+}
+
+.csharp-icon {
+  color: #178600;
+}
+
+.dotnet-icon {
+  color: #512bd4;
+}
+
+.skills h2 {
+  color: #371b51; /* Keeping the previous heading color */
+  text-align: center;
+}
+
+.skills p {
+  font-size: 1.2rem;
+  color: #7c6891; /* Keeping the previous paragraph color */
+  text-align: center;
+  margin-bottom: 40px;
+}

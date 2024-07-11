@@ -1,0 +1,138 @@
+.contact {
+  background-color: #dfcfec;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  border-bottom-right-radius: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.contact-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.contact-info h2 {
+  color: #2d1146; /* Default color */
+}
+
+.contact-info span {
+  color: #c658a1; /* Span color */
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #371b51;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #251b3a;
+}
+
+.interest-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest-button {
+  background-color: #dfcfec;
+  color: #371b51;
+  border: 2px solid #371b51;
+  border-radius: 10%;
+  padding: 10px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.interest-button:hover {
+  background-color: #371b51;
+  color: #dfcfec;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-icons {
+  width: 40px;
+  height: 40px;
+  background-color: #dfcfec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #371b51;
+  border: 2px solid #371b51;
+  cursor: pointer;
+}
+
+.social-icons:hover {
+  color: #dfcfec;
+  background-color: #371b51;
+}
+
+.footer {
+  background-color: #dfcfec;
+  color: #371b51;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
