@@ -1,3 +1,4 @@
+/* Base styles remain unchanged */
 .portfolio-container {
   font-family: Arial, sans-serif;
   padding: 10px;
@@ -6,11 +7,7 @@
 .header-content {
   text-align: left;
   margin: 40px 0;
-  background: linear-gradient(
-    to right,
-    #371b51,
-    #251b3a
-  ); /* Updated background color */
+  background: linear-gradient(to right, #371b51, #251b3a);
   color: white;
   padding: 20px;
   border-radius: 5px;
@@ -51,7 +48,7 @@
   border-radius: 50%;
   background-color: #9470b3;
   color: #361a50;
-  font-size: 1rem; /* Smaller font size for icons */
+  font-size: 1rem;
   margin-bottom: 50px;
 }
 
@@ -70,6 +67,7 @@
   align-items: center;
   gap: 10px;
 }
+
 .count {
   font-size: 2em;
 }
@@ -91,4 +89,50 @@
 .info-text .count {
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .header-content {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .hello-text {
+    font-size: 1rem;
+  }
+
+  .developer-text {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  .social-media {
+    margin-right: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-icon {
+    width: 25px;
+    height: 25px;
+    font-size: 0.9rem;
+  }
+
+  .info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-text {
+    justify-content: center;
+    text-align: center;
+  }
 }
